@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/estilos.css">
     <title>Ejercicio 1</title>
 </head>
 <body>
+    <H1>Formulario de notas</H1>
     <form action="/procesar_formulario" method="post">
-        <label for="nota1">Nota1:</label> <input type="number" id="nota1" name="nota1" required min="10" max="70"><br><br>
-        <label for="nota2">Nota2:</label> <input type="number" id="nota2" name="nota2" required min="10" max="70"><br><br>
-        <label for="nota3">Nota3:</label> <input type="number" id="nota3" name="nota3" required min="10" max="70"><br><br>
-        <label for="asistencia">Asistencia (%):</label> <input type="number" id="asistencia" name="asistencia" required min="0" max="100"><br><br>
+        <label for="nota1">Nota1:</label><br><br> <input type="number" id="nota1" name="nota1" required min="10" max="70" class="label2"><br><br>
+        <label for="nota2">Nota2:</label><br><br> <input type="number" id="nota2" name="nota2" required min="10" max="70" class="label2"><br><br>
+        <label for="nota3">Nota3:</label><br><br> <input type="number" id="nota3" name="nota3" required min="10" max="70" class="label2"><br><br>
+        <label for="asistencia">Asistencia (%):</label><br><br> <input type="number" id="asistencia" name="asistencia" required min="0" max="100" class="label2"><br><br>
         <input type="submit" value="Enviar">
     </form>
 <p>{{ promedio }}</p>
