@@ -1,0 +1,51 @@
+body{
+    background-color: #EAEDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+.inicio_sesion{
+      background-color: grey;
+      background-color: grey;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;}
+h1 { color:blue}
+
+.button1 {
+    background-color: violet; /* Color para el fondo del botón */
+    color: #ffffff; /* Color para el texto del botón */
+    border: none; /* Sin borde para que se vea más limpio */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: underline; /* Subrayado en el texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Añade esquinas redondeadas al botón */
+    margin: 5px; /* Margen alrededor del botón */
+}
+
+.button2 {
+    background-color: #8DFF33; /* Color para el fondo del botón */
+    color: #ffffff; /* Color para el texto del botón */
+    border: none; /* Sin borde para que se vea más limpio */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: underline; /* Subrayado en el texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Añade esquinas redondeadas al botón */
+    margin: 5px; /* Margen alrededor del botón */
+
+}
+button {
+    background-color: #007bff; /* Color azul para el fondo del botón */
+    color: #ffffff; /* Color blanco para el texto del botón */
+    border: none; /* Sin borde para que se vea más limpio */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    text-decoration: underline; /* Subrayado en el texto del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    border-radius: 5px; /* Añade esquinas redondeadas al botón */
+    margin: 5px; /* Margen alrededor del botón */
+}
+button:hover {
+    background-color: skyblue; /* Cambia el color del fondo al pasar sobre el botón */
+}

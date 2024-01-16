@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/css/estilos.css">
+    <title>Inicio de Sesion</title>
+</head>
+<body>
+    <H1>Inicio de sesión</H1>
+     <form action="/inicio_sesion" method="post">
+        <br>
+        <label for="usuario">Ingresa tu nombre:</label><br><br> <input type="text" id="usuario" name="usuario" required><br><br>
+        <label for="clave">Ingresa tu contraseña:</label><br><br> <input type="text" id="clave" name="clave" required><br><br>
+        <input type="submit" value="Verificar"><br>
+     </form>
+
+
+         <h3>{{mensaje}} {{usuario}}</h3>
+
+</body>
+</html>
